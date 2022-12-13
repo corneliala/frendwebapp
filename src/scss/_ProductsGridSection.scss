@@ -1,0 +1,87 @@
+
+.product-grid .card {
+    position: relative;
+    overflow:hidden;
+    border: none;
+    border-radius: 0%;
+}
+
+.product-title h1 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 8rem;
+    padding-bottom: 2rem;
+}
+
+.product-grid .card .card-background {
+    position: absolute; 
+    bottom:0;
+    height: 0%;
+    width: 100%;
+    transition: height 0.3s ease-in-out;
+}
+
+    .product-grid .card:hover .card-background {
+        height: 100%;
+    }
+
+.card-background .btn {
+    width: 100%;
+    top: 77%;
+}
+
+.card .card-img-top {
+    align-items: center;
+    background-color: $color-gray-0;
+}
+
+.product-grid .card .card-menu {
+    position: absolute;
+    z-index: 1;
+    top:100%;
+    right: 5%;
+    list-style: none;
+    margin: 0%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    transition: top 0.3s ease-in-out;
+}
+    .product-grid .card:hover .card-menu  {
+        top: 10px;
+    }
+
+    .product-grid .card .card-menu i {
+        background-color: white;
+        color: $color-dark;
+        border-radius: 50%;
+        border: none;
+        box-shadow: 0 0 5px 0 $color-gray-3;
+        padding: 10px;
+        margin: 0.5rem;
+    }
+        .product-grid .card .card-menu li:hover i {
+            background-color: $color-dark;
+            color:white;
+        }
+       
+.product-grid .product-description {
+    text-align: center;
+}
+    .product-grid .product-description .category {
+        color: #616365;
+        margin-top: 1rem;
+        margin-bottom:0.5rem;
+        font-size: 0.8rem;
+    }
+    .product-grid .product-description .product-title {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .product-grid .product-description .price {
+        font-size: 1.12rem;
+        font-weight: 400;
+    }
+    .product-grid .product-description .product-rating {
+        color: $color-theme;
+    }

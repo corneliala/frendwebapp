@@ -1,0 +1,18 @@
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+// cores
+@import '../cores/variables';
+@import '../cores/base';
+
+// components
+@import './Navbar';
+@import './Showcase';
+@import './utilities';
+@import './FooterSection';
+@import './ProductsGridSection';
+@import './BreadcrumbSection';
+@import './MapSection';
+@import './ContactFormSection';
+@import './TopPicksSection';
+@import './FlashsaleSection';

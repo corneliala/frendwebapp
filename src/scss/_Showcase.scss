@@ -1,0 +1,38 @@
+.__showcase {
+    display:none;
+}
+
+@media (min-width: 900px) {
+.__showcase {
+    display: flex;
+    background: rgb(230,230,230);
+    background: linear-gradient(90deg, rgba(230,230,230,1) 0%, rgba(245,245,245,1) 100%);
+    padding-top: 100px;
+    text-align: center;
+
+
+    .container-fluid {
+        display: flex;
+        align-items: center;
+
+         .showcase-title  h1 {
+            font-weight: 700;
+            font-size: 4rem;
+            margin: 2rem;
+        }
+             .showcase-title h1 span {
+                display: block;
+            }
+         .showcase-title p {
+            font-size: 1.25rem;
+        }
+        
+         .showcase-title .btn {
+            margin: 2rem;
+            padding-left: 3rem;
+            padding-right: 3rem;
+        }
+    }
+    }
+
+}
